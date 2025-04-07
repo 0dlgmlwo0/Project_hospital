@@ -1,0 +1,94 @@
+🏥 1. 병원정보서비스 → 테이블명: hospital_info
+
+- 암호화요양기호: hospital_id
+- 요양기관명: hospital_name
+- 종별코드: category_code
+- 종별코드명: category_name
+- 시도코드: sido_code
+- 시도코드명: sido_name
+- 시군구코드: sigungu_code
+- 시군구코드명: sigungu_name
+- 읍면동: eupmyeondong
+- 우편번호: zipcode
+- 주소: address
+- 전화번호: phone
+- 병원홈페이지: homepage
+- 개설일자: foundation_date
+- 총의사수: total_doctors
+- 좌표(X): coord_x
+- 좌표(Y): coord_y
+
+🏗 2. 시설정보 → 테이블명: facility_info
+
+- 암호화요양기호: hospital_id
+- 요양기관명: hospital_name
+- 종별코드: category_code
+- 종별코드명: category_name
+- 설립구분코드: establishment_code
+- 설립구분코드명: establishment_name
+- 시도코드: sido_code
+- 시도코드명: sido_name
+- 시군구코드: sigungu_code
+- 시군구코드명: sigungu_name
+- 읍면동: eupmyeondong
+- 우편번호: zipcode
+- 주소: address
+- 전화번호: phone
+- 개설일자: foundation_date
+
+🩺 3. 진료과목 → 테이블명: department_info
+
+- 암호화요양기호: hospital_id
+- 요양기관명: hospital_name
+- 진료과목코드: department_code
+- 진료과목코드명: department_name
+- 과목별 전문의수: specialist_count
+- 선택진료 의사수: optional_doctor_count
+
+🔎 4. 세부정보 → 테이블명: detail_info
+
+- 암호화요양기호: hospital_id
+- 요양기관명: hospital_name
+- 위치_공공건물(장소)명: location_building
+- 위치_방향: location_direction
+- 위치_거리: location_distance
+- 주차_가능대수: parking_capacity
+- 주차_비용 부담여부: parking_fee_yn
+- 주차_기타 안내사항: parking_note
+- 휴진안내_일요일: closed_sunday
+- 휴진안내_공휴일: closed_holiday
+- 응급실_주간_운영여부: er_day_open
+- 응급실_주간_전화번호1: er_day_phone1
+- 응급실_주간_전화번호2: er_day_phone2
+- 응급실_야간_운영여부: er_night_open
+- 응급실_야간_전화번호1: er_night_phone1
+- 응급실_야간_전화번호2: er_night_phone2
+- 점심시간_평일: lunch_weekday
+- 점심시간_토요일: lunch_saturday
+- 접수시간_평일: reception_weekday
+- 접수시간_토요일: reception_saturday
+- 진료시작시간_일요일: start_sun
+- 진료종료시간_일요일: end_sun
+- 진료시작시간_월요일: start_mon
+- 진료종료시간_월요일: end_mon
+- 진료시작시간_화요일: start_tue
+- 진료종료시간_화요일: end_tue
+- 진료시작시간_수요일: start_wed
+- 진료종료시간_수요일: end_wed
+- 진료시작시간_목요일: start_thu
+- 진료종료시간_목요일: end_thu
+- 진료시작시간_금요일: start_fri
+- 진료종료시간_금요일: end_fri
+- 진료시작시간_토요일: start_sat
+- 진료종료시간_토요일: end_sat
+
+🚍 5. 교통정보 → 테이블명: transport_info
+
+- 암호화요양기호: hospital_id
+- 요양기관명: hospital_name
+- 교통편명: transport_name
+- 노선번호: route_number
+- 하차지점: stop_point
+- 방향: direction
+- 거리: distance
+- 비고: note
