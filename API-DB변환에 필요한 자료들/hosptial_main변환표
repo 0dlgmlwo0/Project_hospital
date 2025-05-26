@@ -1,0 +1,17 @@
+# hospital_main 테이블 필드 매핑표
+
+
+
+| XML 태그              | 설명                  | 매핑할 DB 필드명            |
+| --------------------- | --------------------- | ---------------------------- |
+| `<ykiho>`             | 병원 고유 코드         | `hospital_code`              |
+| `<yadmNm>`            | 병원 이름              | `hospital_name`              |
+| `<sidoCdNm>`          | 시도 이름              | `province_name`              |
+| `<sgguCdNm>`          | 시군구 이름            | `district_name`              |
+| `<addr>`              | 주소                   | `hospital_address`           |
+| `<telno>`             | 전화번호               | `hospital_tel`               |
+| `<hospUrl>`           | 홈페이지               | `hospital_homepage`          |
+| `<drTotCnt>`          | 의사 수                | `doctor_num`                 |
+| `<XPos>`              | 경도                   | `coordinate_x`               |
+| `<YPos>`              | 위도                   | `coordinate_y`               |
+
