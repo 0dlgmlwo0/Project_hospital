@@ -1,22 +1,24 @@
 # hospital_detail 테이블 필드 매핑표
 
 > 건강보험심사평가원_의료기관별상세정보서비스 API 참조  
-> 🔶 표시된 필드는 세부 정보에서 제공되는 값.
+>세부 정보에서 제공되는 값.
 
 | XML 태그         | 설명                    | 매핑할 DB 필드명              |
 |------------------|-------------------------|-------------------------------|
-| `<emDayYn>`      | 주간 응급 진료 가능 여부   | `emergency_service` 🔶        |
-| `<emNightYn>`    | 야간 응급 진료 가능 여부   | `night_emergency_available` 🔶 |
-| `<parkQty>`      | 주차 가능 대수             | `parking_capacity` 🔶         |
-| `<rcvWeek>`      | 평일 접수 시간             | `weekday_reception` 🔶        |
-| `<rcvSat>`       | 토요일 접수 시간           | `saturday_reception` 🔶       |
-| `<trmtMonStart>` | 월요일 진료 시작 시간       | `mon_open` 🔶                 |
-| `<trmtMonEnd>`   | 월요일 진료 종료 시간       | `mon_end` 🔶                  |
-| `<trmtTueStart>` | 화요일 진료 시작 시간       | `tues_open` 🔶                |
-| `<trmtTueEnd>`   | 화요일 진료 종료 시간       | `tues_end` 🔶                 |
-| `<trmtWedStart>` | 수요일 진료 시작 시간       | `wed_open` 🔶                 |
-| `<trmtWedEnd>`   | 수요일 진료 종료 시간       | `wed_end` 🔶                  |
-| `<trmtThurStart>`| 목요일 진료 시작 시간       | `thurs_open` 🔶               |
-| `<trmtThurEnd>`  | 목요일 진료 종료 시간       | `thurs_end` 🔶                |
-| `<trmtFriStart>` | 금요일 진료 시작 시간       | `fri_open` 🔶                 |
-| `<trmtFriEnd>`   | 금요일 진료 종료 시간       | `fri_end` 🔶                  |
+| `<ykiho>`         | 병원 고유 코드         |        `hospital_code`                |
+| `<emDayYn>`      | 주간 응급 진료 가능 여부   | `emergency_service`         |
+| `<emNightYn>`    | 야간 응급 진료 가능 여부   | `night_emergency_available`  |
+| `<parkQty>`      | 주차 가능 대수             | `parking_capacity`          |
+| `<lunchWeek>`      | 점심시간                   | `weekday_lunch`          |
+| `<rcvWeek>`      | 평일 접수 시간             | `weekday_reception`         |
+| `<rcvSat>`       | 토요일 접수 시간           | `saturday_reception`        |
+| `<trmtMonStart>` | 월요일 진료 시작 시간       | `mon_open`                 |
+| `<trmtMonEnd>`   | 월요일 진료 종료 시간       | `mon_end`                   |
+| `<trmtTueStart>` | 화요일 진료 시작 시간       | `tues_open`                 |
+| `<trmtTueEnd>`   | 화요일 진료 종료 시간       | `tues_end`                  |
+| `<trmtWedStart>` | 수요일 진료 시작 시간       | `wed_open`                  |
+| `<trmtWedEnd>`   | 수요일 진료 종료 시간       | `wed_end`                   |
+| `<trmtThurStart>`| 목요일 진료 시작 시간       | `thurs_open`                |
+| `<trmtThurEnd>`  | 목요일 진료 종료 시간       | `thurs_end`                 |
+| `<trmtFriStart>` | 금요일 진료 시작 시간       | `fri_open`                  |
+| `<trmtFriEnd>`   | 금요일 진료 종료 시간       | `fri_end`                   |
