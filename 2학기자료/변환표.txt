@@ -1,0 +1,54 @@
+# 컬럼명 변환표 (한글 → 영어)
+
+[hospital_main]
+암호화요양기호 -> hospital_code
+요양기관명     -> hospital_name
+종별코드명     -> facility_name
+시도코드명     -> sido_name
+시군구코드명   -> sgg_name
+읍면동         -> emd_code
+주소           -> hospital_address
+전화번호       -> hospital_tel
+병원홈페이지   -> hospital_homepage
+총의사수       -> doctor_num
+좌표(X)        -> coordinate_x
+좌표(Y)        -> coordinate_y
+
+[hospital_detail]
+암호화요양기호       -> hospital_code
+주차_가능대수        -> parking_capacity
+주차_비용 부담여부   -> parking_cost_yn
+주차_기타 안내사항   -> parking_etc
+휴진안내_일요일      -> holiday_sun
+휴진안내_공휴일      -> holiday_holi
+응급실_주간_운영여부 -> em_day_yn
+응급실_주간_전화번호1 -> em_day_tel1
+응급실_주간_전화번호2 -> em_day_tel2
+응급실_야간_운영여부 -> em_night_yn
+응급실_야간_전화번호1 -> em_night_tel1
+응급실_야간_전화번호2 -> em_night_tel2
+접수시간_평일        -> reception_weekday
+접수시간_토요일      -> reception_sat
+(평일) 점심시간      -> weekday_lunch
+진료시작시간_일요일  -> sun_open
+진료종료시간_일요일  -> sun_close
+진료시작시간_월요일  -> mon_open
+진료종료시간_월요일  -> mon_close
+진료시작시간_화요일  -> tue_open
+진료종료시간_화요일  -> tue_close
+진료시작시간_수요일  -> wed_open
+진료종료시간_수요일  -> wed_close
+진료시작시간_목요일  -> thu_open
+진료종료시간_목요일  -> thu_close
+진료시작시간_금요일  -> fri_open
+진료종료시간_금요일  -> fri_close
+진료시작시간_토요일  -> sat_open
+진료종료시간_토요일  -> sat_close
+
+[medical_subject]
+(내부 PK)        -> id
+암호화요양기호    -> hospital_code
+진료과목코드      -> subject_code
+진료과목코드명    -> subject_name
+과목별 전문의수    -> specialist_count
+선택진료 의사수    -> optional_count
